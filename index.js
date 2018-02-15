@@ -19,8 +19,8 @@ function deepestChild(){
   for (let i = 0; i < children.length; i++){
     child = children[i].innerHTML
     if(child.includes("div")){
-    
+      break;
     }
   }
-  return children.length
+  return child
 }
