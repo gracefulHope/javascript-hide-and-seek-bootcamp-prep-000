@@ -19,7 +19,7 @@ function deepestChild(){
   for (let i = 0; i < children.length; i++){
     child = children[i].innerHTML
     if(child.includes("div")){
-      
+      break
     } else{
       return child
     }
