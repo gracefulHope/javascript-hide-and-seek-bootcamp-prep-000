@@ -18,8 +18,8 @@ function deepestChild(){
   var child
   var i = 0
   while (i < children.length){
-    child = children[i].innerHTML
-    if(child.includes("div")){
+    child = children[i]
+    if(child.innerHTML.includes("div")){
       i++
     }
     else{
