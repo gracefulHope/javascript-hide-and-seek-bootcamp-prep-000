@@ -16,10 +16,14 @@ function increaseRankBy(n){
 function deepestChild(){
   const children = document.getElementById('grand-node').querySelectorAll('div')
   var child
+  var i = 0
+  while (i < children.length){
     child = children[i].innerHTML
     if(child.includes("div")){
-      
+      i++
+    }
+    else{
+      return child
     }
   }
-  return child
 }
