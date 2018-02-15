@@ -7,8 +7,8 @@ function nestedTarget(){
 }
 
 function increaseRankBy(n){
-  for (i = 0; i <  ; i++){
-    lis.length; i++) {
+  
+ for (let i = 0; i < lis.length; i++) {
   lis[i].innerHTML = (i + 1).toString()
-  }
+}
 }
