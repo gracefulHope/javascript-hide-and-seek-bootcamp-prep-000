@@ -20,6 +20,8 @@ function deepestChild(){
     child = children[i].innerHTML
     if(child.includes("div")){
       
+    } else{
+      return child
     }
     
   }
